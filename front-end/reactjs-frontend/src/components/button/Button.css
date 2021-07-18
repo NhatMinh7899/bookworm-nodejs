@@ -1,0 +1,32 @@
+:root{
+	--primary-color: #3C415C;
+}
+
+.btn{
+	padding: 10px 20px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: transform .3s ease;
+}
+
+.btn:hover{
+	transform: translateY(-3px);
+}
+
+.btn--primary{
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+.btn--medium {
+	padding: 10px 20px;
+	font-size: 14px;
+}
+
+.btn--small{
+	padding: 6px 14px;
+	font-size: 12px;
+}
+

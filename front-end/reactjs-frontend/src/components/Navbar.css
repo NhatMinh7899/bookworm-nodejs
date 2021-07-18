@@ -1,0 +1,43 @@
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.link-list{
+	display: flex;
+}
+
+.link-list .link-item {
+	padding: 0 10px;
+}
+
+.item{
+	color: #000000;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.active{
+	border-bottom: 1px solid #000000;
+}
+
+.item:hover{
+	color: #444444;
+	border-bottom: 1px solid #000000;
+}
+
+.navbar-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	background-color: #EDEDED;
+	height: 3.875rem;
+}
+
+.navbar-container .navbar-logo{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}

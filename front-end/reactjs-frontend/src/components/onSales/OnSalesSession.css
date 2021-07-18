@@ -1,0 +1,9 @@
+.on-sales-session__container {
+	width: 100%;
+}
+
+.heading {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}

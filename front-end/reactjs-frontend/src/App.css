@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.link {
+	color: #000000;
+}
+
+.link:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.headingLine {
+	border-bottom: 1px solid #000000;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.contentAbout {
+	padding: 0 140px;
+}
+
+.contentAbout .contentTop h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contentAbout .contentTop .content {
+	padding: 30px;
+}
+
+.contentBottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.contentBottom .contentBottomLeft {
+	padding-right: 10px;
+}
+
+.contentShop {
+	display: flex;
+	flex-direction: row;
+}
+.contentFilter {
+	width: 400px;
+}
+
+.carousel-control-next {
+}
+
+.carousel-control-next .carousel-control-next-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}

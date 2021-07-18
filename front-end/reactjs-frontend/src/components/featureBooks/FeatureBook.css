@@ -1,0 +1,27 @@
+.feature-book__container {
+	width: 100%;
+	/* padding: 20px 140px; */
+}
+
+.feature-book__container .heading-feature-book {
+	margin-top: 34px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading-feature-book h1 {
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+
+.button-nav > *:not(:last-child) {
+	margin-right: 10px;
+}
+
+.content-cards {
+	/* border: 1px solid #ededed; */
+	border-radius: 4px;
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
