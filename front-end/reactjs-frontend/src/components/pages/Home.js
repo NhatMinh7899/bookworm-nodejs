@@ -1,18 +1,23 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import "../../App.css";
-import FeatureBook from "../featureBooks/FeatureBook";
-import OnSalesSession from "../onSales/OnSalesSession";
+import React, { PureComponent } from 'react'
+import Onsale from '../home/OnSale';
+import Feature from '../home/Feature';
+import {Col,Container,Row,Button, Card} from 'react-bootstrap';
 
-function Home() {
-	return (
-		<>
-			<Container>
-				<OnSalesSession />
-				<FeatureBook />
-			</Container>
-		</>
-	);
+export default class Home extends PureComponent {
+
+  render() {
+    return (
+      <>
+        <Container>
+          <Row>
+                <Onsale/>
+          </Row>
+          <Row>
+                <Feature/>
+          </Row>
+        </Container>
+        
+      </>
+    )
+  }
 }
-
-export default Home;
